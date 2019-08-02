@@ -9,7 +9,7 @@ if (hourNow > 18) {
     greeting = 'Welcome to this site to know and follow God.';
 }
 
-alert(greeting + ' God Bless You Dear Visitor. We Love You!');
+alert(greeting + ' God Bless You. We Love You.');
 
 // this will update the HTML
 document.write('<h2>' + greeting + '</h2>');
