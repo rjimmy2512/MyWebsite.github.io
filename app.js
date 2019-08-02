@@ -4,7 +4,7 @@ var greeting;
 if (hourNow > 18) {
     greeting = 'Welcome To Learning More About God Love.';
 } else if (hourNow < 18) {
-    greeting = 'Welcome. Some Materials May Be Hard To Understand. If So, Get Someone Older To Help.';
+    greeting = 'Some Materials May Be Hard To Understand At Your Age. If So, Get Someone Older To Help.';
 } else {
     greeting = 'Welcome to this site to know and follow God.';
 }
