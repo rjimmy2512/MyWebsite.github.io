@@ -2,14 +2,14 @@ var hourNow = prompt('Welcome to Our Website. How Old Are You?');
 var greeting;
 
 if (hourNow > 18) {
-    greeting = 'Nice Choice. You will Know More About God Love!';
+    greeting = 'Welcome To Learning More About God Love.';
 } else if (hourNow < 18) {
-    greeting = 'Welcome. Hope This Site Will Help You Know How God Loves Us';
+    greeting = 'Welcome. Some Materials May Be Hard To Understand On This Site. If So, Get Help From Someone Older';
 } else {
-    greeting = 'Welcome to this site to know and follow God'
+    greeting = 'Welcome to this site to know and follow God';
 }
 
-alert(greeting + ' Dear Visitor!');
+alert(greeting + ' God Bless You Dear Visitor!');
 
 // this will update the HTML
 document.write('<h2>' + greeting + '</h2>');
