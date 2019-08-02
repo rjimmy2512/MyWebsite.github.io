@@ -4,12 +4,12 @@ var greeting;
 if (hourNow > 18) {
     greeting = 'Welcome To Learning More About God Love.';
 } else if (hourNow < 18) {
-    greeting = 'Welcome. Some Materials May Be Hard To Understand. If So, Get Someone Older To Help';
+    greeting = 'Welcome. Some Materials May Be Hard To Understand. If So, Get Someone Older To Help.';
 } else {
-    greeting = 'Welcome to this site to know and follow God';
+    greeting = 'Welcome to this site to know and follow God.';
 }
 
-alert(greeting + ' God Bless You Dear Visitor!');
+alert(greeting + ' God Bless You Dear Visitor. We Love You!');
 
 // this will update the HTML
 document.write('<h2>' + greeting + '</h2>');
