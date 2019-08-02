@@ -4,7 +4,7 @@ var greeting;
 if (hourNow > 18) {
     greeting = 'Welcome To Learning More About God Love.';
 } else if (hourNow < 18) {
-    greeting = 'Welcome. Some Materials May Be Hard To Understand On This Site. If So, Get Help From Someone Older';
+    greeting = 'Welcome. Some Materials May Be Hard To Understand. If So, Get Someone Older To Help';
 } else {
     greeting = 'Welcome to this site to know and follow God';
 }
@@ -27,7 +27,7 @@ function changeColor(color) {
 } 
   
 function gfg_Run() { 
-    changeColor('pink, red, blue, green, yellow'); 
+    changeColor('pink'); 
     el_down.innerHTML = "Background Color changed"; 
 }        
 
