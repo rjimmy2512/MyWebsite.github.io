@@ -71,8 +71,15 @@ main {
 }
 
 main li {
-    float: left;
-    margin-top: 20px;
+    main li img {
+        float: left;
+        margin-right: 50px;
+        margin-top: 30px;
+
+}
+    
+#last-img{
+        margin-right: 0px;
 
 }
 
