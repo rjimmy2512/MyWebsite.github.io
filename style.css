@@ -16,7 +16,7 @@ li {
 header {
     background-color: black;
     height: 100px;
-
+    margin-bottom: 0;
 }
 
 h1 {
