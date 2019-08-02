@@ -71,8 +71,8 @@ main {
 }
 
 #img {
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin: 0px 0px;
     margin-top: 30px;
   
 }
