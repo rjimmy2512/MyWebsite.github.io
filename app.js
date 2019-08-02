@@ -1,4 +1,4 @@
-var hourNow = prompt('Welcome to Our Website. How Old Are You?');
+var hourNow = prompt('Hello. How Old Are You?');
 var greeting;
 
 if (hourNow > 18) {
@@ -9,7 +9,7 @@ if (hourNow > 18) {
     greeting = 'Welcome to this site to know and follow God.';
 }
 
-alert(greeting + ' God Bless You. We Love You.');
+alert(greeting + ' God Bless You. I Love You.');
 
 // this will update the HTML
 document.write('<h2>' + greeting + '</h2>');
