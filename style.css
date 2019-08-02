@@ -70,18 +70,13 @@ main {
 
 }
 
-main li {
-    main li img {
-        float: left;
-        margin-right: 50px;
-        margin-top: 30px;
-
+#img {
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+  
 }
-    
-#last-img{
-        margin-right: 0px;
 
-}
 
 footer {
     background-color: black;
