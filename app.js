@@ -1,17 +1,15 @@
-var hourNow = prompt('what is the current hour?');
+var hourNow = prompt('Welcome to Our Website. How Old Are You?');
 var greeting;
 
 if (hourNow > 18) {
-    greeting = 'good evening';
-} else if (hourNow > 12) {
-    greeting = 'good afternoon';
-} else if (hourNow > 0) {
-    greeting = 'good morning';
+    greeting = 'Nice Choice. You will Know More About God Love!';
+} else if (hourNow < 18) {
+    greeting = 'Welcome. Hope This Site Will Help You Know How God Loves Us';
 } else {
-    greeting = 'welcome to class'
+    greeting = 'Welcome to this site to know and follow God'
 }
 
-alert(greeting + ' brian');
+alert(greeting + ' Dear Visitor');
 
 // this will update the HTML
 document.write('<h2>' + greeting + '</h2>');
