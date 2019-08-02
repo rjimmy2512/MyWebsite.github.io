@@ -9,7 +9,7 @@ if (hourNow > 18) {
     greeting = 'Welcome to this site to know and follow God'
 }
 
-alert(greeting + ' Dear Visitor');
+alert(greeting + ' Dear Visitor!');
 
 // this will update the HTML
 document.write('<h2>' + greeting + '</h2>');
@@ -27,7 +27,7 @@ function changeColor(color) {
 } 
   
 function gfg_Run() { 
-    changeColor('pink'); 
+    changeColor('pink, red, blue, green, yellow'); 
     el_down.innerHTML = "Background Color changed"; 
 }        
 
